@@ -1,2 +1,2 @@
-#Ejercicio indigo
+#EjercicioIndigo
 Ejercicos de programacion
