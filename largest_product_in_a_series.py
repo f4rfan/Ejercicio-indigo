@@ -51,7 +51,7 @@ def func():
     i = 0
     mult = 1
     valores = []
-    while (x+k) < n:
+    while (x+k) <= n:
         while i < k:
             mult = mult*serie[x+i]
             i += 1

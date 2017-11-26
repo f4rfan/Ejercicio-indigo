@@ -1,0 +1,3 @@
+import largest_product_in_a_series
+
+largest_product_in_a_series.main()
