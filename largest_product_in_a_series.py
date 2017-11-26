@@ -13,8 +13,7 @@ def main():
             resp.append(func())
 
         for i in resp:
-            print("\n")
-            print(i)
+            print("\n",i)
 
         rsp = input("Desea volver a intentarlo? \nS/N: ")
 
