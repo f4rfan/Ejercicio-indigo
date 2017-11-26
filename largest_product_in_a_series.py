@@ -1,5 +1,6 @@
 def main():
     rsp = ''
+    resp = []
     while rsp != 'N' and rsp != 'n':
         tests = int(input())
         var = True
@@ -9,7 +10,11 @@ def main():
             else:
                 var = False
         for i in range(tests):
-            func()
+            resp.append(func())
+
+        for i in resp:
+            print("\n")
+            print(i)
 
         rsp = input("Desea volver a intentarlo? \nS/N: ")
 
@@ -62,4 +67,4 @@ def func():
 
     valores.sort()
 
-    print(valores[-1])
+    return(valores[-1])
